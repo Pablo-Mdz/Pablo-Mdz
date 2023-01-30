@@ -19,7 +19,10 @@ ___
 
 ~~~ javascript
 
-const description = "I am an outgoing, optimistic, and adventurous person with a passion for web development. I am always looking for new challenges and opportunities to learn and grow. I am a sociable person who thrives in team environments and is committed to constantly improving.";
+const description = "I am an outgoing, optimistic, and adventurous person with a passion for web development. 
+I am always looking  for new challenges and opportunities to learn and grow.
+I am a sociable person who thrives in team environments and is committed to constantly improving.";
+
 const tech = {
    name: "Pablo",
    codeSkills: ["Javascript", "Python", "HTML5", "CSS3", "SQL"],
@@ -36,6 +39,7 @@ const tech = {
       databases: ["MySQL", "MongoDB"],
    },
 };
+
 
 const mySelf = description + tech
 
