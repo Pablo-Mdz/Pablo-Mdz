@@ -1,13 +1,13 @@
 
 
-<h1 align="center">Hi 👋 I'm Pablo 👨‍💻</h1>
+<h1 align="center">Hi, I'm Pablo 👨‍💻</h1>
 
 ![me](https://user-images.githubusercontent.com/80485682/215364549-dff0f41e-c250-4add-903b-b615e7536b4e.png)
 ___
 
 <br>
 
-* [Check my portfolio here](https://pablocigoy.com/ "My portfolio") 🖥️
+* [Go to my portfolio ](https://pablocigoy.com/ "My portfolio") 🖥️
 
 
 
