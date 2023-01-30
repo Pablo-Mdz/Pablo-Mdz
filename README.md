@@ -7,11 +7,19 @@ ___
 
 <br>
 
+* [Check my portfolio here](https://pablocigoy.com/ "My portfolio") 🖥️
+
+
+
+
+
+<br>
+
 ## Do you want to know more about me?
 
 ~~~ javascript
 
-const description = "I am an outgoing, optimistic, and adventurous person with a passion for web development. I am always looking for new challenges and opportunities to learn and grow. I am a sociable person who thrives in team environments and is committed to constantly improving."
+const description = "I am an outgoing, optimistic, and adventurous person with a passion for web development. I am always looking for new challenges and opportunities to learn and grow. I am a sociable person who thrives in team environments and is committed to constantly improving.";
 const tech = {
    name: "Pablo",
    codeSkills: ["Javascript", "Python", "HTML5", "CSS3", "SQL"],
@@ -35,12 +43,15 @@ const aboutMe = (n) => {
     return ' This is me: ' + n
     };
     
-aboutMe ( mySelf )
+aboutMe ( mySelf );
 
 ~~~
 
 </br>
 
+
+
+<br>
 
 
 ## some of my principal projects
@@ -52,3 +63,17 @@ aboutMe ( mySelf )
 * [Game - Save Oliver](https://pablo-mdz.github.io/Game-P5-Shooting/ "On this game you have to save Oliver from the spiders and mouses")
 
 * [Truco, counter game](https://dulcet-pudding-105e47.netlify.app/ "A simple counter for the Truco game")
+
+
+<br>
+
+
+
+
+
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Pablo-Mdz&show_icons=true&locale=en&theme=dark" alt="Pablo Uses" /></p>
+
+<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Pablo-Mdz&theme=dark" alt="pablo" /></p>
+  </div>
+  
+
