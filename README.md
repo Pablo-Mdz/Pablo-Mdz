@@ -25,7 +25,7 @@ I am a sociable person who thrives in team environments and is committed to cons
 
 const tech = {
    name: "Pablo",
-   codeSkills: ["Javascript", "Python", "HTML5", "CSS3", "SQL"],
+   codeSkills: ["JavaScript", "TypeScript", "HTML5", "CSS3", "SQL"],
    technologies: {
       frontEnd: {
          Javascript: ["React", "P5", "Handlebars"],
