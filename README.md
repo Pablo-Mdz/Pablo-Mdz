@@ -58,7 +58,7 @@ aboutMe ( mySelf );
 <br>
 
 
-## some of my principal projects
+## some of my projects
 
 * [Recipes website](https://be-chef.netlify.app/ "A website created in React where you can login, create, read, upload and delete recipes.")
 
