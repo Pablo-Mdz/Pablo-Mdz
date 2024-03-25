@@ -25,6 +25,7 @@ class Developer(
     val codeSkills: List<String>,
     val frontEndTechnologies: Map<String, List<String>>,
     val backEndTechnologies: Map<String, List<String>>,
+    val mobileTechnologies: Map<String, List<String>>,
     val databases: List<String>,
     val designTools: List<String>
 ) {
@@ -34,6 +35,7 @@ class Developer(
         println("Code Skills: ${codeSkills.joinToString(", ")}")
         println("Frontend Technologies: ${frontEndTechnologies.keys.joinToString(", ")}")
         println("Backend Technologies: ${backEndTechnologies.keys.joinToString(", ")}")
+        println("Mobile Technologies: ${mobileTechnologies.keys.joinToString(", ")}")
         println("Databases: ${databases.joinToString(", ")}")
         println("Design Tools: ${designTools.joinToString(", ")}")
     }
@@ -53,6 +55,9 @@ fun main() {
         backEndTechnologies = mapOf(
             "JavaScript" to listOf("Express", "NodeJs"),
             "Python" to listOf("Flask")
+        ),
+        mobileTechnologies = mapOf(
+            "Android" to listOf("Kotlin")
         ),
         databases = listOf("MySQL", "MongoDB"),
         designTools = listOf("Figma")
@@ -81,6 +86,10 @@ fun main() {
 * [Game - Save Oliver](https://pablo-mdz.github.io/Game-P5-Shooting/ "On this game you have to save Oliver from the spiders and mouses")
 
 * [Truco, counter game](https://dulcet-pudding-105e47.netlify.app/ "A simple counter for the Truco game")
+
+* [Whatsapp Clone](https://github.com/Pablo-Mdz/WhatsSyntax/ "A Clone of Whatsapp with some implementations")
+
+* [Game - Game of thrones](https://github.com/Pablo-Mdz/GOT-Game-kotlin/ "A game based in Game of thrones serie to play in console")
 
 
 <br>
