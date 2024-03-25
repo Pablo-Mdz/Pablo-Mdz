@@ -15,39 +15,53 @@ ___
 
 <br>
 
-## Do you want to know more about me?
+### Languages and Technologies
 
-~~~ javascript
+~~~ kotlin
 
-const description = " I am always looking  for new challenges and opportunities to learn and grow.
-I am a sociable person who thrives in team environments and is committed to constantly improving.";
+class Developer(
+    val name: String,
+    val description: String,
+    val codeSkills: List<String>,
+    val frontEndTechnologies: Map<String, List<String>>,
+    val backEndTechnologies: Map<String, List<String>>,
+    val databases: List<String>,
+    val designTools: List<String>
+) {
+    fun printInfo() {
+        println("Name: $name")
+        println("Description: $description")
+        println("Code Skills: ${codeSkills.joinToString(", ")}")
+        println("Frontend Technologies: ${frontEndTechnologies.keys.joinToString(", ")}")
+        println("Backend Technologies: ${backEndTechnologies.keys.joinToString(", ")}")
+        println("Databases: ${databases.joinToString(", ")}")
+        println("Design Tools: ${designTools.joinToString(", ")}")
+    }
+}
 
-const tech = {
-   name: "Pablo",
-   codeSkills: ["JavaScript", "TypeScript", "HTML5", "CSS3", "SQL"],
-   technologies: {
-      frontEnd: {
-         Javascript: ["React", "P5", "Handlebars"],
-         Python: ["Tkinter"],
-         CSS: ["Bootstrap", "Tailwind"],
-      },
-      backEnd: {
-         Javascript: ["Express", "NodeJs"],
-         Python: ["Flask"],
-      },
-      databases: ["MySQL", "MongoDB"],
-      design: ["Figma"],
-   },
-};
+fun main() {
+    val pablo = Developer(
+        name = "Pablo",
+        description = "I am always looking for new challenges and opportunities to learn and grow. " +
+                "I am a sociable person who thrives in team environments and is committed to constantly improving.",
+        codeSkills = listOf("JavaScript", "TypeScript", "HTML5", "CSS3", "SQL", "Kotlin"),
+        frontEndTechnologies = mapOf(
+            "JavaScript" to listOf("React", "P5", "Handlebars"),
+            "Python" to listOf("Tkinter"),
+            "CSS" to listOf("Bootstrap", "Tailwind")
+        ),
+        backEndTechnologies = mapOf(
+            "JavaScript" to listOf("Express", "NodeJs"),
+            "Python" to listOf("Flask")
+        ),
+        databases = listOf("MySQL", "MongoDB"),
+        designTools = listOf("Figma")
+    )
 
+    println("This is me:")
+    pablo.printInfo()
+}
 
-const mySelf = description + tech
-
-const aboutMe = (n) => {
-    return ' This is me: ' + n
-    };
-    
-aboutMe ( mySelf );
 
 ~~~
 
