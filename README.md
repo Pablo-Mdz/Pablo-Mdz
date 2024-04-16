@@ -98,9 +98,3 @@ fun main() {
 
 
 
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Pablo-Mdz&show_icons=true&locale=en&theme=dark" alt="Pablo Uses" /></p>
-
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Pablo-Mdz&theme=dark" alt="pablo" /></p>
-  </div>
-  
-
