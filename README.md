@@ -2,7 +2,7 @@
 
 <h1 align="center">Hi, I'm Pablo 👨‍💻</h1>
 
-![me](https://user-images.githubusercontent.com/80485682/215364549-dff0f41e-c250-4add-903b-b615e7536b4e.png)
+
 ___
 
 <br>
@@ -10,75 +10,17 @@ ___
 * [Go to my portfolio ](https://pablocigoy.com/ "My portfolio") 🖥️
 
 
-
-
-
-<br>
-
-### Languages and Technologies
-
-~~~ kotlin
-
-class Developer(
-    val name: String,
-    val description: String,
-    val codeSkills: List<String>,
-    val frontEndTechnologies: Map<String, List<String>>,
-    val backEndTechnologies: Map<String, List<String>>,
-    val mobileTechnologies: Map<String, List<String>>,
-    val databases: List<String>,
-    val designTools: List<String>
-) {
-    fun printInfo() {
-        println("Name: $name")
-        println("Description: $description")
-        println("Code Skills: ${codeSkills.joinToString(", ")}")
-        println("Frontend Technologies: ${frontEndTechnologies.keys.joinToString(", ")}")
-        println("Backend Technologies: ${backEndTechnologies.keys.joinToString(", ")}")
-        println("Mobile Technologies: ${mobileTechnologies.keys.joinToString(", ")}")
-        println("Databases: ${databases.joinToString(", ")}")
-        println("Design Tools: ${designTools.joinToString(", ")}")
-    }
-}
-
-fun main() {
-    val pablo = Developer(
-        name = "Pablo",
-        description = "I am always looking for new challenges and opportunities to learn and grow. " +
-                "I am a sociable person who thrives in team environments and is committed to constantly improving.",
-        codeSkills = listOf("JavaScript", "TypeScript", "HTML5", "CSS3", "SQL", "Kotlin"),
-        frontEndTechnologies = mapOf(
-            "JavaScript" to listOf("React", "P5", "Handlebars"),
-            "Python" to listOf("Tkinter"),
-            "CSS" to listOf("Bootstrap", "Tailwind")
-        ),
-        backEndTechnologies = mapOf(
-            "JavaScript" to listOf("Express", "NodeJs"),
-            "Python" to listOf("Flask")
-        ),
-        mobileTechnologies = mapOf(
-            "Android" to listOf("Kotlin")
-        ),
-        databases = listOf("MySQL", "MongoDB"),
-        designTools = listOf("Figma")
-    )
-
-    println("This is me:")
-    pablo.printInfo()
-}
-
-
-~~~
-
-</br>
-
-
-
 <br>
 
 
 ## some of my projects
 
+
+
+* [Android App for Kindergrden "Aventeuer"](https://medium.com/@pablocigoy/case-study-abenteuer-kita-facilitating-communication-and-engagement-in-early-childhood-education-e14857209862.")
+  
+* [Android Design UX/UI PRM](https://medium.com/@pablocigoy/project-resources-management-ein-ux-ui-designprojekt-zur-f%C3%B6rderung-der-effektiven-zusammenarbeit-3a2b3dae2836.")
+  
 * [Recipes website](https://be-chef.netlify.app/ "A website created in React where you can login, create, read, upload and delete recipes.")
 
 * [A guide of Latin Restaurants in Berlin](https://sabor-latino.cyclic.app/ "You can login create new restaurants and descriptions, also you can see all the restaurants in the city")
