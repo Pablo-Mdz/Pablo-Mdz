@@ -1,7 +1,6 @@
 
 
-<h1 align="center">Hello, I'm Pablo! 👋🏻</h1>
-<br>
+<h1>Hello, I'm Pablo! 👋🏻</h1>
 
 ## Latest projects
 
