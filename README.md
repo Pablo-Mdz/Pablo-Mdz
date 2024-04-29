@@ -2,6 +2,8 @@
 
 <h1>Hello, I'm Pablo! 👋🏻</h1>
 
+* [Click here to see my porfolio 🖥️ ](https://pablocigoy.com/ "pablocigoy.com") 
+
 ## Latest projects
 
 * [Android App for Kindergrden "Aventeuer"](https://medium.com/@pablocigoy/case-study-abenteuer-kita-facilitating-communication-and-engagement-in-early-childhood-education-e14857209862)
@@ -14,7 +16,7 @@
 * [Game - Game of thrones](https://github.com/Pablo-Mdz/GOT-Game-kotlin/ "A game based in Game of thrones serie to play in console")
 
 
-* [Visit my portfolio to know more about me:  ](https://pablocigoy.com/ "pablocigoy.com") 🖥️
+
 
 
 
